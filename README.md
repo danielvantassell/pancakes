@@ -1,11 +1,11 @@
 # Pancake flipper take home test
 
-In order to determine the smallest number of flips required for making sure that·
+In order to determine the smallest number of flips required for making sure that
 all pancakes in any stack are always facing up, any time there is a difference
-in which way a pancake is facing (determined by instructions as +- or -+) then this
+in which way a pancake is facing (determined by instructions as `+-` or `-+`) then this
 counts as a flip is required. This makes sure that all previous pancakes before the
 change in direction are all now aligned. Finally, if the stack is all upside down,
-which can be realized by the very last value of the stack being face down (-) there
+which can be realized by the very last value of the stack being face down `-` there
 will need to be one final flip.
 
 After beginning script, any invalid entry or out of the range as specified in the
